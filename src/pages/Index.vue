@@ -1,6 +1,7 @@
 <template>
   <Layout :sidebar="false">
     <div class="content">
+      <h1 class="text-green-600 font-bold text-3xl mt-8">Hello, world!</h1>
       <h1>Jamdocs - the ultimate static generated documentation theme for the JAM-stack</h1>
       <nav>
         <!-- To use other icons here, you need to import them in the Shortcut component -->

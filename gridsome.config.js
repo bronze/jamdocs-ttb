@@ -1,11 +1,6 @@
 // This is where project configuration and plugin options are located.
 // Learn more: https://gridsome.org/docs/config
-const purgecss = require('@fullhuman/postcss-purgecss')
-const tailwind = require('tailwindcss')
 
-const postcssPlugins = [
-  tailwind('./tailwind.js'),
-]
 // Changes here require a server restart.
 // To restart press CTRL + C in terminal and run `gridsome develop`
 const path = require('path')
@@ -26,13 +21,6 @@ module.exports = {
   siteUrl: 'https://jamdocs.netlify.com',
   templates: {
     Doc: '/:slug',
-  },
-  css: {
-    loaderOptions: {
-      postcss: {
-        plugins: postcssPlugins,
-      },
-    },
   },
   plugins: [
     {
