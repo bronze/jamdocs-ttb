@@ -1,6 +1,11 @@
-// This is where project configuration and plugin options are located. 
+// This is where project configuration and plugin options are located.
 // Learn more: https://gridsome.org/docs/config
+const purgecss = require('@fullhuman/postcss-purgecss')
+const tailwind = require('tailwindcss')
 
+const postcssPlugins = [
+  tailwind('./tailwind.js'),
+]
 // Changes here require a server restart.
 // To restart press CTRL + C in terminal and run `gridsome develop`
 const path = require('path')
@@ -14,6 +19,7 @@ function addStyleResource (rule) {
       ],
     })
 }
+if (process.env.NODE_ENV === 'production') postcssPlugins.push(purgecss())
 
 module.exports = {
   siteName: 'Jamdocs',
@@ -21,7 +27,17 @@ module.exports = {
   templates: {
     Doc: '/:slug',
   },
+  css: {
+    loaderOptions: {
+      postcss: {
+        plugins: postcssPlugins,
+      },
+    },
+  },
   plugins: [
+    {
+      use: 'gridsome-plugin-tailwindcss',
+    },
     {
       use: '@gridsome/source-filesystem',
       options: {
