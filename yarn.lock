@@ -4149,9 +4149,9 @@ gridsome-plugin-tailwindcss@^2.2.26:
     tailwindcss latest
 
 gridsome@latest:
-  version "0.7.8"
-  resolved "https://registry.yarnpkg.com/gridsome/-/gridsome-0.7.8.tgz#21ca3684d00f2e9e44ce8bba2d4ae5d1a7797778"
-  integrity sha512-ksUtNREvpL+2Yn8ctxcNMIjkDOp+vJ8UwM15JtqvqUCAgdiHTZXwtC2sr/aZKDNVjACi2dmg1ThAs5NEftsThQ==
+  version "0.7.10"
+  resolved "https://registry.yarnpkg.com/gridsome/-/gridsome-0.7.10.tgz#80536582232d1e6efc3ac61e6e838aede23a91aa"
+  integrity sha512-T2p+myfmH6NtVnDOyjtcLychb8yaSSOwOdKc6Asd1o/GbZNNBnXpANxOAgPIP/0me+NUQCQ8ixhgjUemdrDH3Q==
   dependencies:
     "@babel/code-frame" "^7.5.5"
     "@babel/core" "^7.0.0"
