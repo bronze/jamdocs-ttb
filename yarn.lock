@@ -9561,10 +9561,10 @@ vue-analytics@^5.16.1:
   resolved "https://registry.yarnpkg.com/vue-analytics/-/vue-analytics-5.17.2.tgz#5a43cbd907a8b5d2c27e3df5046245604fa8c83e"
   integrity sha512-Vfbn5laOG8OVetrBNRfV64y/N5VVyw1PPC4LiowZFh58UOsfsGH8w+ZZn0pyMelSZmz9uxkgG5dNnce4bwJ6jg==
 
-vue-feather-icons@^4.22.0:
-  version "4.22.0"
-  resolved "https://registry.yarnpkg.com/vue-feather-icons/-/vue-feather-icons-4.22.0.tgz#9652bbb4865b70b0e8c961bbec65310dd1da572b"
-  integrity sha512-ZG8FSFPUYoNet9jjXJFLiTnEH8eCp5Pj0FchtxjTPP6D4qPfcbFFnKDusT+xDj/0zilnuVCLVn/GAghs7k5fCg==
+vue-feather-icons@^5.1.0:
+  version "5.1.0"
+  resolved "https://registry.yarnpkg.com/vue-feather-icons/-/vue-feather-icons-5.1.0.tgz#db658aca5f4c088c2f725f8b1f2967d4a1e4d398"
+  integrity sha512-ZyM2yFGmL9DYLZYHm63KV1zCQOj8czC2LzDSkxoIp9o6zMAOY4yv1FkxbX+XNUwcH3RRrAuvf25Ij7CnUUsQVA==
   dependencies:
     babel-helper-vue-jsx-merge-props "^2.0.2"
 
