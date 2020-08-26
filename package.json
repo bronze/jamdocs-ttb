@@ -11,7 +11,7 @@
     "@gridsome/plugin-sitemap": "^0.2.1",
     "@gridsome/remark-prismjs": "0.0.6",
     "@gridsome/source-filesystem": "^0.6.0",
-    "@gridsome/transformer-remark": "^0.3.4",
+    "@gridsome/transformer-remark": "^0.6.2",
     "gridsome": "latest",
     "gridsome-plugin-algolia": "^2.1.1",
     "typeface-source-sans-pro": "^0.0.54",
